@@ -1,0 +1,21 @@
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prevBtn,
+#nextBtn {
+    pad: 10px, 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+#sliderImage {
+    max-width: 100%;
+    max-height: 300px;
+}
